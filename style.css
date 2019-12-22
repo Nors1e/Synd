@@ -1,0 +1,61 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    background: url(bike.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #3B4252;
+}
+
+.buffer {
+    height: 3rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+    background-color: #4C566A;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.btn-primary {
+    border: none;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #D8DEE9;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    position: absolute; 
+    visibility: visible; 
+    left: 20px; 
+    top: 300px; 
+    z-index: 200;
+}
+
+form button {
+    text-transform: uppercase;
+    background-color: #4C566A;
+}
